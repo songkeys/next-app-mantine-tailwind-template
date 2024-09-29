@@ -1,0 +1,9 @@
+@layer tw_base, mantine, tw_components, tw_utilities;
+
+/* import tailwind */
+@import "tailwindcss/base" layer(tw_base);
+@import "tailwindcss/components" layer(tw_components);
+@import "tailwindcss/utilities" layer(tw_utilities);
+
+/* import mantine */
+@import "@mantine/core/styles.layer.css";
