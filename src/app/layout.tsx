@@ -7,6 +7,7 @@ import {
   mergeMantineTheme,
 } from "@mantine/core";
 import localFont from "next/font/local";
+import Head from "next/head";
 import "./globals.css";
 
 const geistSans = localFont({
@@ -39,10 +40,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <head>
+    <html lang="en" suppressHydrationWarning>
+      <Head>
         <ColorSchemeScript />
-      </head>
+      </Head>
       <body className="antialiased">
         <MantineProvider theme={theme}>{children}</MantineProvider>
       </body>
