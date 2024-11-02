@@ -9,6 +9,7 @@ import {
 import localFont from "next/font/local";
 import Head from "next/head";
 import "./globals.css";
+import { breakpoints, colors } from "./theme";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -31,6 +32,8 @@ const theme = mergeMantineTheme(
   createTheme({
     fontFamily: geistSans.style.fontFamily,
     fontFamilyMonospace: geistMono.style.fontFamily,
+    breakpoints,
+    colors,
   }),
 );
 
