@@ -11,25 +11,25 @@
     "format": "prettier --write ."
   },
   "dependencies": {
-    "@mantine/core": "^7.16.2",
-    "@mantine/hooks": "^7.16.2",
-    "next": "^15.1.6",
+    "@mantine/core": "^7.16.3",
+    "@mantine/hooks": "^7.16.3",
+    "next": "^15.1.7",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "tailwind-preset-mantine": "^2.0.0"
+    "tailwind-preset-mantine": "^2.0.1"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.0.0",
-    "@types/node": "^22.12.0",
+    "@tailwindcss/postcss": "^4.0.6",
+    "@types/node": "^22.13.4",
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
     "eslint": "^8.57.1",
-    "eslint-config-next": "^15.1.6",
+    "eslint-config-next": "^15.1.7",
     "eslint-config-prettier": "^8.10.0",
-    "postcss": "^8.5.1",
-    "prettier": "^3.4.2",
-    "tailwindcss": "^4.0.0",
+    "postcss": "^8.5.2",
+    "prettier": "^3.5.1",
+    "tailwindcss": "^4.0.6",
     "typescript": "^5.7.3"
   },
-  "packageManager": "pnpm@9.15.4"
+  "packageManager": "pnpm@9.15.5"
 }
