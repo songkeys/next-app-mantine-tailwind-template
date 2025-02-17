@@ -1,15 +1,11 @@
 import type { Metadata } from "next";
 import {
   ColorSchemeScript,
-  createTheme,
-  DEFAULT_THEME,
+  mantineHtmlProps,
   MantineProvider,
-  mergeMantineTheme,
 } from "@mantine/core";
-
-import Head from "next/head";
-import "./globals.css";
 import theme from "./theme";
+import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Next App Mantine Tailwind Template",
@@ -22,10 +18,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <Head>
+    <html lang="en" {...mantineHtmlProps}>
+      <head>
         <ColorSchemeScript />
-      </Head>
+      </head>
       <body className="antialiased">
         <MantineProvider theme={theme}>{children}</MantineProvider>
       </body>
