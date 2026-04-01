@@ -11,25 +11,25 @@
     "format": "prettier --write ."
   },
   "dependencies": {
-    "@mantine/core": "^8.0.0",
-    "@mantine/hooks": "^8.0.0",
-    "next": "^15.1.7",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "tailwind-preset-mantine": "^2.1.0"
+    "@mantine/core": "^9.0.0",
+    "@mantine/hooks": "^9.0.0",
+    "next": "^16.2.2",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "tailwind-preset-mantine": "^3.1.0"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.0.6",
-    "@types/node": "^22.13.4",
-    "@types/react": "^18.3.18",
-    "@types/react-dom": "^18.3.5",
-    "eslint": "^8.57.1",
-    "eslint-config-next": "^15.1.7",
-    "eslint-config-prettier": "^8.10.0",
-    "postcss": "^8.5.2",
-    "prettier": "^3.5.1",
-    "tailwindcss": "^4.0.6",
-    "typescript": "^5.7.3"
+    "@tailwindcss/postcss": "^4.2.2",
+    "@types/node": "^25.5.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "eslint": "^10.1.0",
+    "eslint-config-next": "^16.2.2",
+    "eslint-config-prettier": "^10.1.8",
+    "postcss": "^8.5.8",
+    "prettier": "^3.8.1",
+    "tailwindcss": "^4.2.2",
+    "typescript": "^6.0.2"
   },
-  "packageManager": "pnpm@9.15.5"
+  "packageManager": "pnpm@10.33.0"
 }
