@@ -2,12 +2,15 @@
   "name": "next-app-mantine-tailwind-template",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=22.15.0"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "lint:fix": "next lint --fix",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "format": "prettier --write ."
   },
   "dependencies": {
@@ -16,14 +19,14 @@
     "next": "^16.2.2",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
-    "tailwind-preset-mantine": "^3.1.0"
+    "tailwind-preset-mantine": "^4.0.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.2.2",
     "@types/node": "^25.5.0",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "eslint": "^10.1.0",
+    "eslint": "^9.39.4",
     "eslint-config-next": "^16.2.2",
     "eslint-config-prettier": "^10.1.8",
     "postcss": "^8.5.8",
